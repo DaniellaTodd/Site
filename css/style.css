@@ -1,6 +1,6 @@
 .pano-image {
   width: 100%;
-  height: 600px;
+  height: 100%;
 }
 
 section.full {
@@ -10,7 +10,6 @@ section.full {
 
 body {
   margin: 0;
-  font-family: 'Oswald', 'Roboto', sans-serif;
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
   background-color: #000;
@@ -33,15 +32,3 @@ section.background {
   width: 100%;
   z-index: 1;
 } */
-
-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: all 0.25s ease-in-out;
-          -o-transition: all 0.25s ease-in-out;
-          transition: all 0.25s ease-in-out;
-}
