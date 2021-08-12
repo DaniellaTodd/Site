@@ -24,15 +24,15 @@ section.background {
     cursor: grab;
 }
 
-section.background.mousedown {
+/* section.background.mousedown {
   cursor: -webkit-grabbing;
   cursor: grabbing;
-}
+} */
 
-section.content {
+/* section.content {
   width: 100%;
   z-index: 1;
-}
+} */
 
 main {
   display: -webkit-box;
