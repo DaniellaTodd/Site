@@ -3,32 +3,9 @@
   height: 100%;
 }
 
-section.full {
-  width: 100%;
-  height: 100%;
-}
-
 body {
   margin: 0;
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
   background-color: #000;
 }
-
-section.background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    cursor: -webkit-grab;
-    cursor: grab;
-}
-
-/* section.background.mousedown {
-  cursor: -webkit-grabbing;
-  cursor: grabbing;
-} */
-
-/* section.content {
-  width: 100%;
-  z-index: 1;
-} */
