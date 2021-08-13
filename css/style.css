@@ -1,11 +1,4 @@
 .pano-image {
   width: 100%;
   height: 600px;
-  position: relative;
-}
-
-.pipe-gif {
-    position: absolute;
-    top: 0px
-    left: 0px
 }
