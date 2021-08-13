@@ -1,10 +1,10 @@
 const panoImage = document.querySelector('.pano-image');
-const img = 'images/pano.jpeg';
+const testImg = 'images/pano.jpeg';
 
-const panorama = new PANOLENS.ImagePanorama(img);
+const panorama = new PANOLENS.ImagePanorama(testImg);
 const viewer = new PANOLENS.Viewer({
   container: panoImage,
-  horizontalView: true,
+  // horizontalView: true,
 });
 
 viewer.add(panorama);
