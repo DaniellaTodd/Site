@@ -60,6 +60,7 @@ and (max-device-width : 480px) {
 /* STYLES GO HERE */
 .pipe-gif{
   width: 90%;
+  margin-top: 5%;
   margin-left: 6%;
   position: absolute;
   height:auto;
@@ -135,8 +136,8 @@ and (orientation : landscape) {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
+/* @media only screen
+and (min-width : 1224px) { */
 /* STYLES GO HERE */
 /* .pipe-gif{
   width: 40%;
