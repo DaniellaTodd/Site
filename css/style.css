@@ -58,6 +58,7 @@ footer {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* STYLES GO HERE */
+
 .pipe-gif{
   width: 90%;
   margin-top: 5%;
@@ -67,22 +68,22 @@ and (max-device-width : 480px) {
 }
 .sound-icon{
   width: 15%;
-  margin-top: 20%;
+  margin-top: 25%;
   margin-left: 26%;
   position: absolute;
 }
 
 .video-icon{
   width: 15%;
-  margin-top: 70%;
+  margin-top: 75%;
   margin-left: 43%;
   position: absolute;
 }
 
 .info-icon{
   width: 15%;
-  margin-top: 90%;
-  margin-left: 60%;
+  margin-top: 95%;
+  margin-left: 57%;
   position: absolute;
 }
 }
@@ -200,11 +201,11 @@ and (min-width : 1824px) { */
 } */
 
 /* iPhone 5 (portrait & landscape)----------- */
-@media only screen
+/* @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
 /* STYLES GO HERE */
-.pipe-gif{
+/* .pipe-gif{
   width: 90%;
   margin-left: 6%;
   position: absolute;
@@ -230,7 +231,7 @@ and (max-device-width : 568px) {
   margin-left: 60%;
   position: absolute;
 }
-}
+} */
 
 /* iPhone 5 (landscape)----------- */
 @media only screen
