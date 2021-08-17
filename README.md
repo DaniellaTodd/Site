@@ -1,2 +1,2 @@
 # Site
-https://github.com/DaniellaTodd/altitudeabovehygiene.github.io
+https://daniellatodd.github.io/altitudeabovehygiene.github.io/
