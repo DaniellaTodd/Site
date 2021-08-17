@@ -331,7 +331,7 @@ and (max-device-width : 480px) {
   text-align: justify;
   font-style: normal;
   font-weight: normal;
-  font-size: 11.5px;
+  font-size: 13px;
   letter-spacing: 0.09em;
   line-height: 1.1em;
   color: #fff;
@@ -417,7 +417,7 @@ and (max-device-width : 1024px) {
   text-align: justify;
   font-style: normal;
   font-weight: normal;
-  font-size: 11.5px;
+  font-size: 15px;
   letter-spacing: 0.09em;
   line-height: 1.1em;
   color: #fff;
