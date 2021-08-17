@@ -58,17 +58,18 @@ a {
 
 .popup .content {
   position:absolute;
-  top:50%;
+  top:53%;
   left:50%;
   transform:translate(-50%,-50%) scale(0);
-  background:rgba(255,255,255,0.6);
+  background:rgba(255,255,255,0.9);
   width:95%;
-  max-width:500px;
-  height:250px;
+  max-width:1000px;
+  height:450px;
   z-index:2;
-  text-align:center;
+  text-align:justify;
   padding:20px;
   box-sizing:border-box;
+  overflow: auto;
 }
 
 .popup .close-btn {
@@ -305,6 +306,14 @@ and (max-device-width : 480px) {
   position: absolute;
   height:auto;
 }
+
+.popup .content {
+  top:47.5%;
+  max-width:1000px;
+  height:750px;
+  font-size: 14.5px;
+}
+
 .sound-icon{
   width: 15%;
   margin-top: 75%;
@@ -416,6 +425,12 @@ and (max-device-width : 1024px) {
   position: absolute;
   height:auto;
 }
+
+.popup .content {
+  max-width:1000px;
+  height:520px;
+}
+
 .sound-icon{
   width: 9%;
   margin-top: 47.7%;
