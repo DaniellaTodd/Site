@@ -37,10 +37,12 @@ a {
 
 .pause-hide {
   display: block;
+  cursor: pointer;
 }
 
 .play-hide {
   display:none;
+  cursor: pointer;
 }
 
 .popup .overlay {
@@ -178,6 +180,14 @@ html, body {
   cursor: pointer;
 }
 
+.sound-icon-two{
+  width: 4%;
+  margin-top: 44%;
+  margin-left: 47%;
+  position: absolute;
+  cursor: pointer;
+}
+
 /* .sound-icon:hover,
 .sound-icon:focus {
   width: 4.1%;
@@ -188,6 +198,14 @@ html, body {
   width: 4%;
   margin-top: 23.5%;
   margin-left: 49.8%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.pause-icon-two {
+  width: 4%;
+  margin-top: 44%;
+  margin-left: 47%;
   position: absolute;
   cursor: pointer;
 }
@@ -277,6 +295,14 @@ and (max-device-width : 480px) {
   position: absolute;
 }
 
+.sound-icon-two {
+  width: 15%;
+  margin-top: 2%;
+  margin-left: 44%;
+  position: absolute;
+  cursor: pointer;
+}
+
 /* .sound-icon:hover,
 .sound-icon:focus {
   width: 15.2%;
@@ -288,6 +314,15 @@ and (max-device-width : 480px) {
   margin-left: 43%;
   position: absolute;
 }
+
+.pause-icon-two {
+  width: 15%;
+  margin-top: 2%;
+  margin-left: 44%;
+  position: absolute;
+  cursor: pointer;
+}
+
 
 /* .pause-icon:hover,
 .pause-icon:focus {
@@ -364,6 +399,16 @@ and (max-device-width : 1024px) {
   margin-left: 50.2%;
   position: absolute;
 }
+
+
+.sound-icon-two {
+  width: 15%;
+  margin-top: 10%;
+  margin-left: 44%;
+  position: absolute;
+  cursor: pointer;
+}
+
 /* .sound-icon:hover,
 .sound-icon:focus {
   width: 9.1%;
@@ -375,6 +420,15 @@ and (max-device-width : 1024px) {
   margin-left: 50.2%;
   position: absolute;
 }
+
+.pause-icon-two {
+  width: 15%;
+  margin-top: 10%;
+  margin-left: 44%;
+  position: absolute;
+  cursor: pointer;
+}
+
 /* .pause-icon:hover,
 .pause-icon:focus {
   width: 9.1%;
