@@ -2,7 +2,7 @@ const panoImage = document.querySelector('.pano-image');
 const img = 'images/image2.jpeg';
 
 const panorama = new PANOLENS.ImagePanorama(img);
-panorama.position.set(0,0,-4000)
+panorama.position.set(0, 0, -1000)
 const viewer = new PANOLENS.Viewer({
   container: panoImage,
   horizontalView: true,
@@ -21,21 +21,6 @@ function togglePopupTwo(){
 }
 
 
-// function playclip() {
-// if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
-// if (document.all)
-//  {
-//   document.all.sound.src = "waves.mp3";
-//  }
-// }
-//
-// else {
-// {
-// var audio = document.getElementsByTagName("audio")[0];
-// audio.play();
-// }
-// }
-// }
 
 function playAudio() {
   var audio = document.getElementById("myAudio");
