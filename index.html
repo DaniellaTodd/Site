@@ -1,19 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" translate="no">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
   <meta name="author" content="Monique Todd">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></>script></script>
     <title>Tester</title>
 
 </head>
-<body class="pano-image">
+<body>
+  <div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="close-btn" onclick="togglePopup()"><ion-icon name="close-outline"></ion-icon></div>
+        <h1>Profane Muffling</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+        </div>
+      </div>
+      <div class="popup-video" id="popup-2">
+        <div class="overlay-video"></div>
+        <div class="content-video">
+            <div class="close-btn-video" onclick="togglePopupTwo()"><ion-icon name="close-outline"></ion-icon></div>
+              <p><iframe style="width:100%; height: 250px; overflow: auto;" src="https://www.youtube.com/embed/BHACKCNDMW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            </div>
+          </div>
+  <div class="pano-image"></div>
   <div><img class="pipe-gif" src="images/pipe.gif"/></div>
-  <div><img class="sound-icon" src="images/soundicon.png"/></div>
+  <div class="play-hide" onclick="playAudio()"><img class="sound-icon"src="images/playicon.png" alt="" title=""/></a></div>
+  <div class="pause-hide" onclick="pauseAudio()"><img class="pause-icon"src="images/pauseicon.png" alt="" title=""/></a></div>
+  <div onclick="togglePopupTwo()"><img class="video-icon"src="images/videoicon.png" alt="" title=""/></div>
+  <div onclick="togglePopup()"><img class="info-icon"src="images/infoicon.png" alt="" title=""/></div>
+
+  <!-- <div><img class="sound-icon" src="images/soundicon.png"/></div>
   <div><img class="video-icon" src="images/videoicon.png"/></div>
-  <div><img class="info-icon" src="images/infoicon.png"/></div>
+  <div><img class="info-icon" src="images/infoicon.png"/></div> -->
+  <audio id="myAudio">
+    <source src="sound/waves.mp3" type="audio/mpeg">
+      <!-- <source src="sound/click.ogg" type="audio/ogg"> -->
+      </audio>
+      <div id="sounddiv"><bgsound id="sound"></div>
 
   <footer>created by Daniella</footer>
 
