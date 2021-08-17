@@ -2,12 +2,12 @@ const panoImage = document.querySelector('.pano-image');
 const img = 'images/image2.jpeg';
 
 const panorama = new PANOLENS.ImagePanorama(img);
-panorama.position.set(0,0,1000)
+panorama.position.set(0,0,-500)
 const viewer = new PANOLENS.Viewer({
   container: panoImage,
   horizontalView: true,
-  // autoRotate: true,
-  // autoRotateSpeed: 2,
+  viewIndicator: true,
+  controlBar: false,
 });
 
 viewer.add(panorama);
@@ -35,9 +35,8 @@ function togglePopupTwo(){
 // }
 // }
 
-var audio = document.getElementById("myAudio");
-
 function playAudio() {
+  var audio = document.getElementById("myAudio");
   audio.play();
   document.querySelector(".pause-hide").style.display = "block";
   document.querySelector(".play-hide").style.display = "none";
@@ -45,6 +44,7 @@ function playAudio() {
 
 
 function pauseAudio() {
+  var audio = document.getElementById("myAudio");
   audio.pause();
   document.querySelector(".pause-hide").style.display = "none";
   document.querySelector(".play-hide").style.display = "block";
