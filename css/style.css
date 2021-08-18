@@ -222,11 +222,7 @@ a {
   transform:translate(-50%,-50%) scale(1);
 }
 
-.text{
-  width: 4%;
-  margin-top: 8%;
-  margin-left: 45%;
-  position: absolute;
+.text-links {
   cursor: pointer;
   text-align: center;
   font-style: normal;
@@ -239,21 +235,20 @@ a {
   text-decoration: none;
 }
 
-.text-two{
+.pop-text{
   width: 4%;
-  margin-top: 30%;
-  margin-left: 55.5%;
+  margin-top: 8%;
+  margin-left: 45%;
+  position: relative;
+  z-index: 1;
+}
+
+.link-video {
+  width: 4%;
+  margin-top: 18%;
+  margin-left: 56%;
   position: absolute;
-  cursor: pointer;
-  text-align: center;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
-  letter-spacing: 0.09em;
-  line-height: 1.2em;
-  color: #fff;
-  text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
-  text-decoration: none;
+  z-index: 0;
 }
 
 /* .info-icon:hover,
@@ -301,6 +296,55 @@ footer {
 @media only screen
 and (max-device-width : 320px){
 
+  .pipe-gif{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 6%;
+    position: absolute;
+    height:auto;
+  }
+  .sound-icon{
+    width: 15%;
+    margin-top: 75%;
+    margin-left: 43%;
+    position: absolute;
+  }
+
+  .sound-icon-two {
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 44%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .pop-text{
+    width: 4%;
+    margin-top: 26%;
+    margin-left: 30%;
+  }
+
+  .link-video {
+    width: 4%;
+    margin-top: 48%;
+    margin-left: 63%;
+  }
+
+  .pause-icon{
+    width: 15%;
+    margin-top: 75%;
+    margin-left: 43%;
+    position: absolute;
+  }
+
+  .pause-icon-two {
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 44%;
+    position: absolute;
+    cursor: pointer;
+  }
+
   .popup .content {
     top:47.5%;
     left:50%;
@@ -314,6 +358,7 @@ and (max-device-width : 320px){
     font-size: 11px;
     padding:5px;
     box-sizing:border-box;
+    overflow: auto;
   }
 
   footer {
@@ -362,14 +407,26 @@ and (max-device-width : 480px) {
   background:rgba(255,255,255,0.9);
   width:95%;
   max-width:500px;
-  height:640px;
+  height:690px;
   z-index:2;
   text-align:justify;
   font-size: 14px;
   padding:15px;
   box-sizing:border-box;
+  overflow: auto;
 }
 
+.pop-text{
+  width: 4%;
+  margin-top: 26%;
+  margin-left: 30%;
+}
+
+.link-video {
+  width: 4%;
+  margin-top: 48%;
+  margin-left: 63%;
+}
 
 .pause-icon{
   width: 15%;
@@ -396,13 +453,6 @@ and (max-device-width : 480px) {
   width: 15%;
   margin-top: 25%;
   margin-left: 30%;
-  position: absolute;
-}
-
-.text-two{
-  width: 4%;
-  margin-top: 90%;
-  margin-left: 63%;
   position: absolute;
 }
 /* .info-icon:hover,
@@ -443,6 +493,81 @@ and (max-device-width : 480px) {
 }
 }
 
+@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 600px){
+
+  .pipe-gif{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 6%;
+    position: absolute;
+    height:auto;
+  }
+  .sound-icon{
+    width: 15%;
+    margin-top: 75%;
+    margin-left: 43%;
+    position: absolute;
+  }
+
+  .sound-icon-two {
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 44%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .pop-text{
+    width: 4%;
+    margin-top: 26%;
+    margin-left: 30%;
+  }
+
+  .link-video {
+    width: 4%;
+    margin-top: 48%;
+    margin-left: 63%;
+  }
+
+  .pause-icon{
+    width: 15%;
+    margin-top: 75%;
+    margin-left: 43%;
+    position: absolute;
+  }
+
+  .pause-icon-two {
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 44%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .popup .content {
+    top:47.5%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background:rgba(255,255,255,0.9);
+    width:95%;
+    max-width:500px;
+    height:600px;
+    z-index:2;
+    text-align:justify;
+    font-size: 13px;
+    padding:5px;
+    box-sizing:border-box;
+    overflow: auto;
+  }
+
+  footer {
+    padding: 0;
+    font-size: 11px;
+  }
+}
+
 
 /* Smartphones (landscape) ----------- */
 @media only screen
@@ -469,6 +594,10 @@ and (max-device-width : 1024px) {
   position: absolute;
 }
 
+.text-links{
+  font-size: 25px;
+}
+
 
 .sound-icon-two {
   width: 15%;
@@ -476,6 +605,18 @@ and (max-device-width : 1024px) {
   margin-left: 44%;
   position: absolute;
   cursor: pointer;
+}
+
+.pop-text{
+  width: 4%;
+  margin-top: 15%;
+  margin-left: 42%;
+}
+
+.link-video {
+  width: 4%;
+  margin-top: 35%;
+  margin-left: 63%;
 }
 
 .popup .content {
@@ -524,12 +665,7 @@ and (max-device-width : 1024px) {
   margin-left: 39%;
   position: absolute;
 }
-.text-two{
-  width: 4%;
-  margin-top: 60%;
-  margin-left: 63%;
-  position: absolute;
-}
+
 
 /* .info-icon:hover,
 .info-icon:focus {
