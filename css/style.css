@@ -3,7 +3,8 @@ html, body {
   height: 100%;
   overflow: hidden;
   margin: 0;
-  background-color: #fff;
+  background-image: url(final.jpg);
+  background-color: #000;
 }
 
 svg #panolens-view-indicator-container {
