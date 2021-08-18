@@ -6,11 +6,11 @@ html, body {
   background-color: #fff;
 }
 
-svg #panolens-view-indicator-container {
+/* svg #panolens-view-indicator-container {
   width: 0;
   height: 0;
   cursor: none;
-}
+} */
 
 .pano-image {
   width: 100%;
