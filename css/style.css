@@ -441,6 +441,10 @@ and (max-device-width : 320px){
     padding-left: 120px;
     text-align: right;
   }
+
+  .tap-to-play {
+    color: #f2f0e6;
+  }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -604,6 +608,9 @@ footer {
   padding-left: 120px;
   text-align: right;
 }
+.tap-to-play {
+  color: #f2f0e6;
+}
 }
 
 @media only screen
@@ -731,6 +738,10 @@ and (max-device-width : 600px){
     font-weight: bold;
     padding-left: 120px;
     text-align: right;
+  }
+
+  .tap-to-play {
+    color: #f2f0e6;
   }
 }
 
