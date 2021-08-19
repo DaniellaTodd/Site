@@ -105,7 +105,7 @@ ul li {
 
 #home-text{
   font-weight: bold;
-  padding-left: 910px;
+  padding-left: 1000px;
 }
 
 #home-text-two{
@@ -893,7 +893,7 @@ and (max-device-width : 1024px) {
 }
 #home-text{
   font-weight: bold;
-  padding-left: 100px;
+  padding-left: 220px;
   text-align: right;
 }
 
@@ -968,7 +968,7 @@ and (max-width : 1199px) {
   }
   #home-text{
     font-weight: bold;
-    padding-left: 100px;
+    padding-left: 300px;
     text-align: right;
   }
 
@@ -1004,7 +1004,7 @@ and (max-width : 2000px) {
   }
   #home-text{
     font-weight: bold;
-    padding-left: 100px;
+    padding-left: 900px;
     text-align: right;
   }
 
