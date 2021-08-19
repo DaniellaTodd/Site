@@ -904,11 +904,11 @@ and (max-device-width : 1024px) {
 }
 
 /* iPads (landscape) ----------- */
-@media only screen
+/* @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-/* STYLES GO HERE */
+
 .about .bio {
   position:absolute;
   top:40%;
@@ -940,7 +940,7 @@ and (orientation : landscape) {
   padding-left: 150px;
   text-align: right;
 }
-}
+} */
 
 @media only screen
 and (min-width : 1025px)
