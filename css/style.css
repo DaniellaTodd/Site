@@ -949,7 +949,7 @@ and (max-width : 1199px) {
   .about .bio {
     position:absolute;
     top:40%;
-    left:45%;
+    left:47%;
     transform:translate(-50%,-50%) scale(1);
     width:95%;
     max-width:900px;
@@ -973,7 +973,7 @@ and (max-width : 1199px) {
 
   #home-text-two{
     font-weight: bold;
-    padding-left: 150px;
+    padding-left: 320px;
     text-align: right;
   }
 }
