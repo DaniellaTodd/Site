@@ -7,8 +7,8 @@ const viewer = new PANOLENS.Viewer({
   container: panoImage,
   horizontalView: true,
   controlBar: false,
-  // autoRotate: true,
-  // autoRotateSpeed: 0.5,
+  autoRotate: true,
+  autoRotateSpeed: 0.5,
   // initialLookPosition: new THREE.Vector3( -5000.00, 167.06, 3449.90 ),
 });
 
