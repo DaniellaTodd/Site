@@ -985,7 +985,7 @@ and (max-width : 2000px) {
   .about .bio {
     position:absolute;
     top:40%;
-    left:48.5%;
+    left:50%;
     transform:translate(-50%,-50%) scale(1);
     width:95%;
     max-width:900px;
