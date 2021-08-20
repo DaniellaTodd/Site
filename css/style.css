@@ -446,7 +446,7 @@ and (max-device-width : 320px){
     padding-right: 5px;
     box-sizing:border-box;
     font-family:"Open Sans",sans-serif;
-    background-image:url(/images/playicon.png);
+    background-image:url(/images/playiconphone.png);
     background-size: 300px;
     background-repeat: no-repeat;
   }
@@ -576,7 +576,7 @@ and (max-device-width : 480px) {
   padding-right: 5px;
   box-sizing:border-box;
   font-family:"Open Sans",sans-serif;
-  background-image:url(/images/playicon.png);
+  background-image:url(/images/playiconphone.png);
   background-size: 300px;
   background-repeat: no-repeat;
 }
@@ -780,7 +780,7 @@ and (max-device-width : 600px){
     padding-right: 5px;
     box-sizing:border-box;
     font-family:"Open Sans",sans-serif;
-    background-image:url(/images/playicon.png);
+    background-image:url(/images/playiconphone.png);
     background-size: 350px;
     background-repeat: no-repeat;
   }
@@ -926,7 +926,7 @@ and (max-device-width : 1024px) {
   padding-right: 5px;
   box-sizing:border-box;
   font-family:"Open Sans",sans-serif;
-  background-image:url(/images/playicon.png);
+  background-image:url(/images/playiconphone.png);
   background-size: 450px;
   background-repeat: no-repeat;
 }
