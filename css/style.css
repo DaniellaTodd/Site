@@ -29,7 +29,7 @@ svg #panolens-view-indicator-container {
 .sound-icon{
   width: 4%;
   margin-top: 23.5%;
-  margin-left: 49.8%;
+  margin-left: 49.5%;
   position: absolute;
   cursor: pointer;
 }
@@ -51,7 +51,7 @@ svg #panolens-view-indicator-container {
 .pause-icon {
   width: 4%;
   margin-top: 23.5%;
-  margin-left: 49.8%;
+  margin-left: 49.5%;
   position: absolute;
   cursor: pointer;
 }
@@ -840,7 +840,7 @@ and (max-device-width : 1024px) {
 .sound-icon{
   width: 9%;
   margin-top: 47.7%;
-  margin-left: 50.2%;
+  margin-left: 49.2%;
   position: absolute;
 }
 
@@ -939,7 +939,7 @@ and (max-device-width : 1024px) {
 .pause-icon{
   width: 9%;
   margin-top: 47.7%;
-  margin-left: 50.2%;
+  margin-left: 49.2%;
   position: absolute;
 }
 
@@ -1035,6 +1035,22 @@ and (max-width : 1199px) {
     font-weight: bold;
     padding-left: 300px;
     text-align: right;
+  }
+
+  .sound-icon-two{
+    width: 4%;
+    margin-top: 81%;
+    margin-left: 47%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .pause-icon-two {
+    width: 4%;
+    margin-top: 81%;
+    margin-left: 47%;
+    position: absolute;
+    cursor: pointer;
   }
 
   /* .info-image {
