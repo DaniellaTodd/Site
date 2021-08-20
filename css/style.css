@@ -64,6 +64,33 @@ svg #panolens-view-indicator-container {
   cursor: pointer;
 }
 
+.info-image {
+  width: 6%;
+  margin-top: 5%;
+  margin-left: 58.5%;
+  /* position: absolute; */
+  cursor:grab;
+}
+
+.info-icon-wrap {
+  position: relative;
+}
+
+.info-icon-hide{
+  margin-left: 59.5%;
+  color: white;
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: #f2f0e6;
+  text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
+  text-align: center;
+}
+.info-icon-wrap:hover .info-icon-hide {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* .pause-icon:hover,
 .pause-icon:focus {
   width: 4.1%;
@@ -106,11 +133,6 @@ ul li {
 #home-text{
   font-weight: bold;
   padding-left: 1000px;
-}
-
-#home-text-two{
-  font-weight: bold;
-  padding-left: 850px;
 }
 
 a {
@@ -324,17 +346,19 @@ and (max-device-width : 320px){
     position: absolute;
     height:auto;
   }
-  .sound-icon{
-    width: 15%;
-    margin-top: 75%;
-    margin-left: 43%;
-    position: absolute;
-  }
 
   .sound-icon-two {
     width: 15%;
     margin-top: 2%;
-    margin-left: 44%;
+    margin-left: 42%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .pause-icon-two {
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 42%;
     position: absolute;
     cursor: pointer;
   }
@@ -351,19 +375,42 @@ and (max-device-width : 320px){
     margin-left: 63%;
   }
 
-  .pause-icon{
+  .sound-icon{
     width: 15%;
     margin-top: 75%;
-    margin-left: 43%;
+    margin-left: 41%;
     position: absolute;
   }
 
-  .pause-icon-two {
+  .pause-icon{
     width: 15%;
-    margin-top: 2%;
-    margin-left: 44%;
+    margin-top: 75%;
+    margin-left: 41%;
     position: absolute;
-    cursor: pointer;
+  }
+
+  .info-image {
+    width: 25%;
+    margin-top: 4%;
+    margin-left: 58.5%;
+    /* position: absolute; */
+    cursor:grab;
+  }
+
+  .info-icon-wrap {
+    position: relative;
+    margin-left: 30%;
+  }
+
+  .info-icon-hide{
+    margin-left: 59.5%;
+    color: white;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #f2f0e6;
+    text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
+    text-align: center;
   }
 
   .popup .content {
@@ -438,13 +485,6 @@ and (max-device-width : 320px){
     padding-left: 170px;
     text-align: right;
   }
-
-  #home-text-two{
-    font-weight: bold;
-    padding-left: 120px;
-    text-align: right;
-  }
-
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -472,7 +512,31 @@ and (max-device-width : 480px) {
   margin-top: 2%;
   margin-left: 44%;
   position: absolute;
-  cursor: pointer;
+  cursor:pointer;
+}
+
+.info-image {
+  width: 25%;
+  margin-top: 13%;
+  margin-left: 58.5%;
+  /* position: absolute; */
+  cursor:grab;
+}
+
+.info-icon-wrap {
+  position: relative;
+  margin-left: 30%;
+}
+
+.info-icon-hide{
+  margin-left: 59.5%;
+  color: white;
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: #f2f0e6;
+  text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
+  text-align: center;
 }
 
 /* .sound-icon:hover,
@@ -603,11 +667,6 @@ footer {
   text-align: right;
 }
 
-#home-text-two{
-  font-weight: bold;
-  padding-left: 120px;
-  text-align: right;
-}
 }
 
 @media only screen
@@ -633,7 +692,31 @@ and (max-device-width : 600px){
     margin-top: 2%;
     margin-left: 44%;
     position: absolute;
-    cursor: pointer;
+    cursor:pointer;
+  }
+
+  .info-image {
+    width: 25%;
+    margin-top: 25%;
+    margin-left: 58.5%;
+    /* position: absolute; */
+    cursor:grab;
+  }
+
+  .info-icon-wrap {
+    position: relative;
+    margin-left: 30%;
+  }
+
+  .info-icon-hide{
+    margin-left: 59.5%;
+    color: white;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #f2f0e6;
+    text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
+    text-align: center;
   }
 
   .pop-text{
@@ -731,11 +814,6 @@ and (max-device-width : 600px){
     text-align: right;
   }
 
-  #home-text-two{
-    font-weight: bold;
-    padding-left: 120px;
-    text-align: right;
-  }
 }
 
 
@@ -774,7 +852,31 @@ and (max-device-width : 1024px) {
   margin-top: 10%;
   margin-left: 44%;
   position: absolute;
-  cursor: pointer;
+  cursor:pointer;
+}
+
+.info-image {
+  width: 25%;
+  margin-top: 10%;
+  margin-left: 50.5%;
+  /* position: absolute; */
+  cursor:grab;
+}
+
+.info-icon-wrap {
+  position: relative;
+  margin-left: 30%;
+}
+
+.info-icon-hide{
+  margin-left: 59.5%;
+  color: white;
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: #f2f0e6;
+  text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
+  text-align: center;
 }
 
 .pop-text{
@@ -877,7 +979,7 @@ and (max-device-width : 1024px) {
 
 .about .bio {
   position:absolute;
-  top:40%;
+  top:45%;
   left:50%;
   transform:translate(-50%,-50%) scale(1);
   width:95%;
@@ -900,51 +1002,7 @@ and (max-device-width : 1024px) {
   text-align: right;
 }
 
-#home-text-two{
-  font-weight: bold;
-  padding-left: 150px;
-  text-align: right;
 }
-}
-
-/* iPads (landscape) ----------- */
-/* @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-
-.about .bio {
-  position:absolute;
-  top:40%;
-  left:40%;
-  transform:translate(-50%,-50%) scale(1);
-  width:95%;
-  max-width:900px;
-  height:415px;
-  padding:15px;
-  box-sizing:content-box;
-  text-align: justify;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  letter-spacing: 0.09em;
-  line-height: 1.1em;
-  color: #fff;
-  text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
-}
-
-#home-text{
-  font-weight: bold;
-  padding-left: 100px;
-  text-align: right;
-}
-
-#home-text-two{
-  font-weight: bold;
-  padding-left: 150px;
-  text-align: right;
-}
-} */
 
 @media only screen
 and (min-width : 1025px)
@@ -953,7 +1011,7 @@ and (max-width : 1199px) {
   .about .bio {
     position:absolute;
     top:40%;
-    left:47%;
+    left:50%;
     transform:translate(-50%,-50%) scale(1);
     width:95%;
     max-width:900px;
@@ -975,11 +1033,30 @@ and (max-width : 1199px) {
     text-align: right;
   }
 
-  #home-text-two{
-    font-weight: bold;
-    padding-left: 320px;
-    text-align: right;
+  .info-image {
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 50.5%;
+    /* position: absolute; */
+    cursor:grab;
   }
+
+  .info-icon-wrap {
+    position: relative;
+    margin-left: 30%;
+  }
+
+  .info-icon-hide{
+    margin-left: 59.5%;
+    color: white;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #f2f0e6;
+    text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
+    text-align: center;
+  }
+
 }
 
 @media only screen
@@ -1005,17 +1082,7 @@ and (max-width : 2000px) {
     color: #fff;
     text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
   }
-  #home-text{
-    font-weight: bold;
-    padding-left: 900px;
-    text-align: right;
-  }
-
-  #home-text-two{
-    font-weight: bold;
-    padding-left: 350px;
-    text-align: right;
-  }
+  
 }
 
 /* iPhone 5 (landscape)----------- */

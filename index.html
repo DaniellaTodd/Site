@@ -93,23 +93,33 @@
             </div>
           </div>
 
-  <div class="play-hide" onclick="playAudio()"><img class="sound-icon"src="images/playicon.png" alt="Altitude Above Hygiene" title="Altitude Above Hygiene"/></div>
-  <div class="pause-hide" onclick="pauseAudio()"><img class="pause-icon"src="images/pauseicon.png" alt="Altitude Above Hygiene" title="Altitude Above Hygiene"/></div>
+          <div class="audio-control">
+        <button id="pauseAudio" class="is-paused"><img class="pause-icon"src="images/pauseicon.png" alt="Altitude Above Hygiene" title="Altitude Above Hygiene"/></button>
+        </div>
+
+        <audio id="altit-audio" controls loop autoplay style="display: none">
+          <source src="sound/soundAltitudeAboveHygiene.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
 <div class="text-links">
   <div onclick="togglePopup()" class="pop-text">Sacredly Profane Muffling</div>
-  <div onclick="togglePopupTwo()" class="link-video">Body Undone as Territory</a></div></div>
+  <div onclick="togglePopupTwo()" class="link-video">Body Undone as Territory</div>
+</div>
+<div class="info-icon-wrap">
+  <img class="info-image" src="images/infoicon.png" alt="Altitude Above Hygiene" title="Altitude Above Hygiene"/>
+  <span class="info-icon-hide">Drag screen</span>
+</div>
   <!-- <div><img class="sound-icon" src="images/soundicon.png"/></div>
   <div><img class="video-icon" src="images/videoicon.png"/></div>
   <div><img class="info-icon" src="images/infoicon.png"/></div> -->
-  <audio id="myAudio" controls loop autoplay style="display:none">
+  <!-- <audio id="myAudio" controls loop autoplay style="display:none">
     <source src="sound/soundAltitudeAboveHygiene.mp3" type="audio/mpeg">
-    </audio>
+    </audio> -->
 
-    <footer id="home">
+    <footer>
       <ul>
-          <li>
-            <a href="altitude.html">Altitude Above Hygiene</a>
-          </li>
+          <li><a href="index.html">Home</a></a></li>
+          <li><a href="altitude.html">Altitude Above Hygiene</a></li>
       </ul>
       <ul id="home-text">
           <li>
@@ -118,6 +128,19 @@
         </li>
       </ul>
     </footer>
+  <script>  document.getElementById("pauseAudio").addEventListener("click", function(){
+    var audio = document.getElementById('altit-audio');
+    if(this.className == 'is-paused'){
+      this.className = "";
+      this.innerHTML = "<img class='sound-icon'src='images/playicon.png' alt='Altitude Above Hygiene' title='Altitude Above Hygiene'/>"
+      audio.pause();
+    }else{
+      this.className = "is-paused";
+      this.innerHTML = "<img class='pause-icon'src='images/pauseicon.png' alt='Altitude Above Hygiene' title='Altitude Above Hygiene'/>";
+      audio.play();
+    }
+
+  });</script>
 
     <script src="js/three.min.js"></script>
     <script src="js/panolens.min.js"></script>

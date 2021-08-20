@@ -14,13 +14,13 @@ const viewer = new PANOLENS.Viewer({
 
 viewer.add(panorama);
 
-// Custom infospots
-const infospot = new PANOLENS.Infospot( 600,
-  'images/infoicon.png', false
-)
-infospot.position.set(-3950,500,-4000)
-infospot.addHoverText('Move Around', 40)
-panorama.add(infospot);
+// // Custom infospots
+// const infospot = new PANOLENS.Infospot( 600,
+//   'images/infoicon.png', false
+// )
+// infospot.position.set(-3950,500,-4000)
+// infospot.addHoverText('Move Around', 40)
+// panorama.add(infospot);
 
 function togglePopup(){
   document.getElementById("popup-1").classList.toggle("active");
