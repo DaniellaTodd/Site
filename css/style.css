@@ -64,11 +64,10 @@ svg #panolens-view-indicator-container {
   cursor: pointer;
 }
 
-.info-image {
+/* .info-image {
   width: 6%;
   margin-top: 5%;
   margin-left: 58.5%;
-  /* position: absolute; */
   cursor:grab;
 }
 
@@ -89,7 +88,7 @@ svg #panolens-view-indicator-container {
 .info-icon-wrap:hover .info-icon-hide {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 /* .pause-icon:hover,
 .pause-icon:focus {
@@ -389,11 +388,10 @@ and (max-device-width : 320px){
     position: absolute;
   }
 
-  .info-image {
+  /* .info-image {
     width: 25%;
     margin-top: 4%;
     margin-left: 58.5%;
-    /* position: absolute; */
     cursor:grab;
   }
 
@@ -411,7 +409,7 @@ and (max-device-width : 320px){
     color: #f2f0e6;
     text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
     text-align: center;
-  }
+  } */
 
   .popup .content {
     top:47.5%;
@@ -515,11 +513,10 @@ and (max-device-width : 480px) {
   cursor:pointer;
 }
 
-.info-image {
+/* .info-image {
   width: 25%;
   margin-top: 13%;
   margin-left: 58.5%;
-  /* position: absolute; */
   cursor:grab;
 }
 
@@ -537,7 +534,7 @@ and (max-device-width : 480px) {
   color: #f2f0e6;
   text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
   text-align: center;
-}
+} */
 
 /* .sound-icon:hover,
 .sound-icon:focus {
@@ -698,11 +695,10 @@ and (max-device-width : 600px){
     cursor:pointer;
   }
 
-  .info-image {
+  /* .info-image {
     width: 25%;
     margin-top: 25%;
     margin-left: 58.5%;
-    /* position: absolute; */
     cursor:grab;
   }
 
@@ -720,7 +716,7 @@ and (max-device-width : 600px){
     color: #f2f0e6;
     text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
     text-align: center;
-  }
+  } */
 
   .pop-text{
     width: 4%;
@@ -861,11 +857,10 @@ and (max-device-width : 1024px) {
   cursor:pointer;
 }
 
-.info-image {
+/* .info-image {
   width: 25%;
   margin-top: 10%;
   margin-left: 50.5%;
-  /* position: absolute; */
   cursor:grab;
 }
 
@@ -883,7 +878,7 @@ and (max-device-width : 1024px) {
   color: #f2f0e6;
   text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
   text-align: center;
-}
+} */
 
 .pop-text{
   width: 4%;
@@ -1042,11 +1037,10 @@ and (max-width : 1199px) {
     text-align: right;
   }
 
-  .info-image {
+  /* .info-image {
     width: 25%;
     margin-top: 5%;
     margin-left: 50.5%;
-    /* position: absolute; */
     cursor:grab;
   }
 
@@ -1064,7 +1058,7 @@ and (max-width : 1199px) {
     color: #f2f0e6;
     text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
     text-align: center;
-  }
+  } */
 
 }
 
