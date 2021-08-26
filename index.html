@@ -13,7 +13,10 @@
 
 </head>
 <body>
-
+  <audio id="altit-audio" controls loop style="display: none">
+    <source src="sound/soundAltitudeAboveHygiene.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
   <div class="pano-image"></div>
   <div><img class="pipe-gif" src="images/pipe.gif"/></div>
   <!-- <div class="popup-video" id="popup-2">
@@ -94,13 +97,9 @@
           </div>
 
           <div class="audio-control">
-        <button id="pauseAudio" class="is-paused"><img class="pause-icon"src="images/pauseicon.png" alt="Altitude Above Hygiene" title="Altitude Above Hygiene"/></button>
+        <button id="pauseAudio" class="is-paused"><img class="sound-icon"src="images/playicon.png" alt="Altitude Above Hygiene" title="Altitude Above Hygiene"/></button>
         </div>
 
-        <audio id="altit-audio" controls loop autoplay style="display: none">
-          <source src="sound/soundAltitudeAboveHygiene.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-        </audio>
 <div class="text-links">
   <div onclick="togglePopup()" class="pop-text">Sacredly Profane Muffling</div>
   <div onclick="togglePopupTwo()" class="link-video">Body Undone as Territory</div>

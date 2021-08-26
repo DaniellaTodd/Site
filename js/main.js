@@ -30,15 +30,17 @@ function togglePopupTwo(){
 }
 
 document.getElementById("pauseAudio").addEventListener("click", function(){
-  var audio = document.getElementById('altit-audio');
-  if(this.className == 'is-paused'){
-    this.className = "";
-    this.innerHTML = "<img class='sound-icon'src='images/playicon.png' alt='Altitude Above Hygiene' title='Altitude Above Hygiene'/>"
-    audio.pause();
-  }else{
-    this.className = "is-paused";
-    this.innerHTML = "<img class='pause-icon'src='images/pauseicon.png' alt='Altitude Above Hygiene' title='Altitude Above Hygiene'/>";
+  var audio = document.getElementById("altit-audio");
+  if(this.className == "is-paused"){
     audio.play();
+    this.className = "";
+    this.innerHTML = "<img class='pause-icon'src='images/pauseicon.png' alt='Altitude Above Hygiene' title='Altitude Above Hygiene'/>"
+    // audio.play();
+  }else{
+    audio.pause();
+    this.className = "is-paused";
+    this.innerHTML = "<img class='sound-icon'src='images/playicon.png' alt='Altitude Above Hygiene' title='Altitude Above Hygiene'/>";
+    // audio.pause();
   }
 
 });
