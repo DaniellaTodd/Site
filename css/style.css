@@ -39,18 +39,16 @@ svg #panolens-view-indicator-container {
   text-align: center;
   border-radius: 6px;
   padding: 10px;
-
-  /* Position the tooltip */
   position: absolute;
   z-index: 1;
   top: 0;
-  right: 120%;
+  right: 130%;
 }
 .tooltip .tooltiptext::after {
   content: " ";
   position: absolute;
   top:10%;
-  left: 100%; /* To the right of the tooltip */
+  left: 100%;
   margin-top: -5px;
   border-width: 5px;
   border-style: solid;
@@ -72,7 +70,7 @@ svg #panolens-view-indicator-container {
   position: absolute;
   z-index: 1;
   margin-top:25%;
-  right: 49.5%;
+  right: 50%;
 }
 .tooltip .tooltiptexttwo::after {
   content: " ";
@@ -97,18 +95,16 @@ svg #panolens-view-indicator-container {
   text-align: center;
   border-radius: 6px;
   padding: 10px;
-
-  /* Position the tooltip */
   position: absolute;
   z-index: 1;
   top: 0;
-  left: 120%;
+  left: 130%;
 }
 .tooltip .tooltiptextthree::after {
   content: " ";
   position: absolute;
   top:10%;
-  right: 100%; /* To the right of the tooltip */
+  right: 100%;
   margin-top: -5px;
   border-width: 5px;
   border-style: solid;
@@ -117,6 +113,13 @@ svg #panolens-view-indicator-container {
 
 .tooltip:hover .tooltiptextthree {
   visibility: visible;
+}
+
+button {
+    background-color: transparent;
+    padding: 0;
+    border-width: 0;
+    border-color: transparent;
 }
 
 .sound-icon{
@@ -217,7 +220,13 @@ ul li {
 
 #home-text{
   font-weight: bold;
-  padding-left: 1000px;
+}
+
+.align-left{
+  float:left;
+}
+.align-right{
+  float:right;
 }
 
 a {
@@ -411,7 +420,7 @@ footer {
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -423,6 +432,16 @@ footer {
 
 @media only screen
 and (max-device-width : 320px){
+
+  .tooltip:hover .tooltiptext {
+    visibility: hidden;
+  }
+  .tooltip:hover .tooltiptexttwo {
+    visibility: hidden;
+  }
+  .tooltip:hover .tooltiptextthree {
+    visibility: hidden;
+  }
 
   .pipe-gif{
     width: 90%;
@@ -561,21 +580,29 @@ and (max-device-width : 320px){
   footer {
     font-size: 5px;
     padding: 0;
-
   }
 
-  #home-text{
+  /* #home-text{
     font-weight: bold;
     padding-left: 170px;
     text-align: right;
-  }
+  } */
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 321px)
 and (max-device-width : 480px) {
-/* STYLES GO HERE */
+
+.tooltip:hover .tooltiptext {
+  visibility: hidden;
+}
+.tooltip:hover .tooltiptexttwo {
+  visibility: hidden;
+}
+.tooltip:hover .tooltiptextthree {
+  visibility: hidden;
+}
 
 .pipe-gif{
   width: 90%;
@@ -747,17 +774,27 @@ footer {
   margin-top: 20px;
 }
 
-#home-text{
+/* #home-text{
   font-weight: bold;
   padding-left: 100px;
   text-align: right;
-}
+} */
 
 }
 
 @media only screen
 and (min-device-width : 360px)
 and (max-device-width : 600px){
+
+  .tooltip:hover .tooltiptext {
+    visibility: hidden;
+  }
+  .tooltip:hover .tooltiptexttwo {
+    visibility: hidden;
+  }
+  .tooltip:hover .tooltiptextthree {
+    visibility: hidden;
+  }
 
   .pipe-gif{
     width: 90%;
@@ -896,11 +933,11 @@ and (max-device-width : 600px){
     font-size: 11px;
   }
 
-  #home-text{
+  /* #home-text{
     font-weight: bold;
     padding-left: 100px;
     text-align: right;
-  }
+  } */
 
 }
 
@@ -915,7 +952,17 @@ and (min-width : 321px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
-/* STYLES GO HERE */
+
+  .tooltip:hover .tooltiptext {
+    visibility: hidden;
+  }
+  .tooltip:hover .tooltiptexttwo {
+    visibility: hidden;
+  }
+  .tooltip:hover .tooltiptextthree {
+    visibility: hidden;
+  }
+
 .pipe-gif{
   width: 60%;
   margin-top: 1%;
@@ -936,11 +983,11 @@ and (max-device-width : 1024px) {
 
 
 .sound-icon-two {
-  width: 15%;
-  margin-top: 10%;
-  margin-left: 44%;
-  position: absolute;
-  cursor:pointer;
+    width: 8%;
+    margin-top: 3%;
+    margin-left: 47%;
+    position: absolute;
+    cursor: pointer;
 }
 
 /* .info-image {
@@ -1030,11 +1077,11 @@ and (max-device-width : 1024px) {
 }
 
 .pause-icon-two {
-  width: 15%;
-  margin-top: 10%;
-  margin-left: 44%;
-  position: absolute;
-  cursor: pointer;
+    width: 8%;
+    margin-top: 3%;
+    margin-left: 47%;
+    position: absolute;
+    cursor: pointer;
 }
 
 /* .pause-icon:hover,
@@ -1074,7 +1121,7 @@ and (max-device-width : 1024px) {
   transform:translate(-50%,-50%) scale(1);
   width:95%;
   max-width:900px;
-  height:415px;
+  height:320px;
   padding:15px;
   box-sizing:content-box;
   text-align: justify;
@@ -1086,11 +1133,11 @@ and (max-device-width : 1024px) {
   color: #fff;
   text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
 }
-#home-text{
+/* #home-text{
   font-weight: bold;
   padding-left: 220px;
   text-align: right;
-}
+} */
 
 }
 
@@ -1105,7 +1152,7 @@ and (max-width : 1199px) {
     transform:translate(-50%,-50%) scale(1);
     width:95%;
     max-width:900px;
-    height:415px;
+    height:320px;
     padding:15px;
     box-sizing:content-box;
     text-align: justify;
@@ -1117,26 +1164,26 @@ and (max-width : 1199px) {
     color: #fff;
     text-shadow: 0px 0px 6px #000, 0px 0px 6px #000;
   }
-  #home-text{
+  /* #home-text{
     font-weight: bold;
     padding-left: 300px;
     text-align: right;
-  }
+  } */
 
-  .sound-icon-two{
-    width: 4%;
-    margin-top: 81%;
-    margin-left: 47%;
+  .sound-icon-two {
+    width: 7%;
+    margin-top: 56%;
+    margin-left: 46%;
     position: absolute;
     cursor: pointer;
-  }
+}
 
   .pause-icon-two {
-    width: 4%;
-    margin-top: 81%;
-    margin-left: 47%;
-    position: absolute;
-    cursor: pointer;
+      width: 7%;
+      margin-top: 56%;
+      margin-left: 46%;
+      position: absolute;
+      cursor: pointer;
   }
 
   .pop-text{
@@ -1157,7 +1204,7 @@ and (max-width : 1500px) {
     transform:translate(-50%,-50%) scale(1);
     width:95%;
     max-width:900px;
-    height:415px;
+    height:320px;
     padding:15px;
     box-sizing:content-box;
     text-align: justify;
