@@ -482,14 +482,14 @@ and (max-device-width : 320px){
   .sound-icon{
     width: 15%;
     margin-top: 75%;
-    margin-left: 41%;
+    margin-left: 43%;
     position: absolute;
   }
 
   .pause-icon{
     width: 15%;
     margin-top: 75%;
-    margin-left: 41%;
+    margin-left: 43%;
     position: absolute;
   }
 
@@ -806,7 +806,7 @@ and (max-device-width : 600px){
   .sound-icon{
     width: 15%;
     margin-top: 75%;
-    margin-left: 41%;
+    margin-left: 43%;
     position: absolute;
   }
 
@@ -856,7 +856,7 @@ and (max-device-width : 600px){
   .pause-icon{
     width: 15%;
     margin-top: 75%;
-    margin-left: 41%;
+    margin-left: 43%;
     position: absolute;
   }
 
