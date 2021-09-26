@@ -124,15 +124,15 @@ button {
 
 .sound-icon{
   width: 4%;
-  margin-top: 23.5%;
-  margin-left: 49.5%;
+  margin-top: 23.6%;
+  margin-left: 49.9%;
   position: absolute;
   cursor: pointer;
 }
 .pause-icon {
   width: 4%;
-  margin-top: 23.5%;
-  margin-left: 49.5%;
+  margin-top: 23.6%;
+  margin-left: 49.9%;
   position: absolute;
   cursor: pointer;
 }
@@ -236,12 +236,12 @@ a {
 }
 
 .pause-hide {
-  display: block;
+  display: none;
   cursor: pointer;
 }
 
 .play-hide {
-  display:none;
+  display: block;
   cursor: pointer;
 }
 
@@ -973,7 +973,7 @@ and (max-device-width : 1024px) {
 .sound-icon{
   width: 9%;
   margin-top: 47.7%;
-  margin-left: 49.2%;
+  margin-left: 50%;
   position: absolute;
 }
 
@@ -1072,7 +1072,7 @@ and (max-device-width : 1024px) {
 .pause-icon{
   width: 9%;
   margin-top: 47.7%;
-  margin-left: 49.2%;
+  margin-left: 50%;
   position: absolute;
 }
 
@@ -1231,16 +1231,16 @@ and (max-width : 1500px) {
 
   .sound-icon{
     width: 4%;
-    margin-top: 23%;
-    margin-left: 49%;
+    margin-top: 24%;
+    margin-left: 50%;
     position: absolute;
     cursor: pointer;
   }
 
   .pause-icon {
     width: 4%;
-    margin-top: 23%;
-    margin-left: 49%;
+    margin-top: 24%;
+    margin-left: 50%;
     position: absolute;
     cursor: pointer;
   }
